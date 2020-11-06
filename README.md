@@ -1,45 +1,58 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome BXS-Archipelago,
+==============-The Auto Care Page by Brian Smyth-================
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+===== -Introduction- ====
 
-## Gitpod Reminders
+*Overview*
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This website is for any car owner who wishes to keep their car looking new through the provision of expert information and instructions. 
 
-`python3 -m http.server`
+*Why does it exist?*
 
-A blue button should appear to click: *Make Public*,
+The most critical aspect of owning a car is rapid depreciation in value. Apart from essential mechanical maintenance, keeping the car in good condition will ensure a faster resale for greater value. 
 
-Another blue button should appear to click: *Open Browser*.
+*What does it do?*
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The site will contain important information about processes, techniques for care, chemicals to use and also information about what to avoid. 
 
-A blue button should appear to click: *Make Public*,
+*How does it work?*
 
-Another blue button should appear to click: *Open Browser*.
+The site will contain several pages dedicated to the different areas of a car since each must be treated very differently. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+==== -The Site- ====
 
-## Updates Since The Instructional Video
+*Tools*
+Pages will be built using HTML and CSS 
+Bootstrap used to provide flexibility and responsiveness.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+*Set Features*
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Media: All photographs are taken and owned by myself, Brian Smyth
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+=Landing page will be an attractive photo of a car in excellent condition
+=Navigation bar will contain links to go directly to the page of most interest.
+=Logo will be text-based, the site name "Auto Care Page"
+=Footer will contain social media icons and links.
+=Contact page will request Name, Location, Email and Message
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+==== -Pages and folder List- ====
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+|- assets (folder)
+     |- css  (folder)
+             |- style.css 
+     |- img (folder)
+            |- (various image files)
+|-index.HTML
+|-about.HTML
+|-interior.HTML
+|-exterior.HTML
+|-contact.HTML
+|-interiorcare.HTML     
+    (second interior care page with more information, linked from first page only)
+|-exteriorcare.html 
+    (second exterior care page with more information, linked from first page only)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+==== -Wireframe- ====
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Balsamiq wireframe shows basic layout of pages, with scaled down reproductions for tablet and mobile device. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
